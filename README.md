@@ -4,29 +4,6 @@
 
 ---
 
-## 📁 Project Structure
-
-```
-support_ticket_classifier/
-│
-├── ticket_classifier.py      ← Main ML code (models, training, evaluation)
-├── notebook.ipynb            ← Jupyter Notebook version
-├── requirements.txt          ← All dependencies
-│
-├── data/
-│   └── support_tickets.csv   ← Your dataset goes here (auto-generated if missing)
-│
-├── models/
-│   ├── category_model.pkl    ← Saved category classifier
-│   └── priority_model.pkl    ← Saved priority classifier
-│
-└── outputs/
-    ├── confusion_matrices.png
-    └── data_distribution.png
-```
-
----
-
 ## ⚙️ How It Works
 
 | Step | What Happens |
